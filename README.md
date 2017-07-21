@@ -21,7 +21,7 @@
 
 // Phase 1 design plan::
 
-// Book locator- 
+// Book locator-  This program is designed for use in a bookstore. It is a quick reference for New York Times best sellers. These books are hard to keep on the shelf, so it allow employees to locate a book for a client and order it with the lowest possible shipping cost.
 
 // This program will use 2 different data structures. The first will be an RBT storing a list of New York Times best 
 // selling books as structs. The second will be  a graph of local book stores. The two data structures will be linked by 
@@ -40,22 +40,22 @@ search by bookstore, print the inventory of a bookstore, print the
 
 //{
 
-//     string title;
+// Â  Â  string title;
 
-//     string author;
+// Â  Â  string author;
 
-//     string publisher;
+// Â  Â  string publisher;
 
-//     vector<store> available; // this will contain pointers to all the book stores which have this book on hand.
+// Â  Â  vector<store> available; // this will contain pointers to all the book stores which have this book on hand.
 
-//     bool isRed;
+// Â  Â  bool isRed;
 
 
-//     book *parent;
+// Â  Â  book *parent;
 
-//     book *left;
+// Â  Â  book *left;
 
-//     book *right;     
+// Â  Â  book *right; Â  Â  
 
 //};
 
@@ -66,15 +66,15 @@ search by bookstore, print the inventory of a bookstore, print the
 
 //{
 
-//      string name;
+// Â  Â   string name;
 
-//      vector<adjacent> adj; // vector of structs of adjacent vertices
+// Â  Â   vector<adjacent> adj; // vector of structs of adjacent vertices
         
 //	vector <inventory> onHand;
 
-//      bool visited;
+// Â  Â   bool visited;
 
-//      int distance;
+// Â  Â   int distance;
 
 //};
 
@@ -83,10 +83,10 @@ search by bookstore, print the inventory of a bookstore, print the
 
 //{
 
-//    bookstore *v; 
+// Â   bookstore *v; 
 // pointer to a book store
 
-//    int weight; 
+// Â   int weight; 
 // cost to ship from v
 
 //};
