@@ -1,0 +1,1 @@
+ This program is designed for use in a bookstore. It is a quick reference for New York Times best sellers. These books are hard to keep on the shelf, so it allow employees to locate a book for a client and order it with the lowest possible shipping cost.
