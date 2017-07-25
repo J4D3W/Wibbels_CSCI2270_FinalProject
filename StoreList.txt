@@ -1,0 +1,6 @@
+111,B. Dalton Booksellers
+222,Barnes & Nobles
+333,Tattered Cover
+444,2nd & Charles
+555,Black and Red
+666,Walden Books

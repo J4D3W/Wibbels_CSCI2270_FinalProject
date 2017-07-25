@@ -1,0 +1,15 @@
+1,Camino Island,John Grisham,Doubleday,5,0,0,0,5,0,2
+2,Murder Games,James Patterson,Little and Brown,2,10,0,23,0,9,0
+3,Use of Force,Brad Thor,Atria,2,0,4,8,0,0,9
+4,Into the Water,Paula Hawkins,Riverhead,10,9,7,0,3,0,0
+5,The Duchess,Danielle Steele,Delacorte,2,0,0,18,0,20,6
+6,The Identicals,Elin Hilderbrand,Little and Brown,4,0,2,0,4,5,0
+7,Wired,Julie Garwood,Berkley,0,4,0,0,8,0,12
+8,A Gentleman in Moscow,Amor Towles,Viking,33,0,22,13,0,15,0
+9,The Silent Corner,Dean Koontz,Bantam,3,10,9,0,0,0,2
+10,The Force,Don Winslow,Morrow/Harper Collins,2,1,12,10,0,0,0
+11,Tom Clancy: Point of Contact,Mike Maden,Putnam,4,0,0,0,4,19,2
+12,Dragon Teeth,Michael Chrichton,Harper/Harper Collins,7,1,0,3,0,5,0
+13,Seven Stones to Stand or Fall,Diana Gabaldon,Delacorte,2,0,2,0,4,0,6
+14,Dangerous Minds,Janet Evanovich,Bantam,3,2,0,0,2,2,0
+15,Kiss Carlo,Adriana Trigiani,Harper/Harper Collins,3,0,3,3,0,0,3
