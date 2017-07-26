@@ -1,23 +1,34 @@
-// Erin "Jade" Wibbels // CSCI 2270 - Professor Montero Quesada // Final Project Phase 1 - Due 7/21 5pm
+// Erin "Jade" Wibbels 
+// CSCI 2270 - Professor Montero Quesada 
+// Final Project Phase 2 
 
-// Objectives:(with brainstorming comments) // - Implement algorithms for standard operations on common data structures and discuss complexity of the operations. // - Comment on the features of different traversal methods for graphs and other data structures. // - Formulate and implament solutions to problems using fundamental graph algorithms (ie depth first/breadthfirst searches and //   shortest path algorithms.
+Phase 2 Read Me file requirements:
+Your project needs to include a ReadMe file that includes all the instructions needed
+to download your code and run it on a machine. Your ReadMe file needs to contain
+the following sections.
 
-// Phase 1 design plan:: // Book locator- This program is designed for use in a bookstore. It is a quick reference for New York Times best sellers. These books are hard to keep on the shelf, so it allow employees to locate a book for a client and order it with the lowest possible shipping cost.
+Project Summary
+One paragraph description of how the program works and what it does.
 
-// This program will use 2 different data structures. The first will be an RBT storing a list of New York Times best selling books as // structs. The second will be a graph of local book stores. The two data structures will be linked by vectors of pointers. The books // will have vectors of pointers at each bookstore which carries the book and the bookstores will have a vector of pointers showing // which books are in the stores inventory. You will be able to print the list of books, print the list of bookstores, search by book, // search by bookstore, print the inventory of a bookstore, print the list of bookstores which carry the book, find the bookstore // which will have the lowest shipping cost on the book you are looking for, order the book (this will reduce the available quantity) if // the available quantity goes to 0 the book will be removed from the stores inventory.
+Book locator- This program is designed for use in a bookstore. It is a quick reference for New York Times best sellers. These books are hard to keep on the shelf, so it allow employees to locate a book for a client and order it with the lowest possible shipping cost.
 
-// struct book // nodes in RBT //{ //     string title; //     string author; //     string publisher; //     vector available; // this will contain pointers to all the book stores which have this book on hand. //     bool isRed; // //     book *parent; //     book *left; //     book *right;     //}; //
+   This program will use 2 different data structures. The first will be an RBT storing a list of New York Times best selling books as structs. The second will be a graph of local book stores. The two data structures will be linked by vectors of pointers. The books will have vectors of pointers at each bookstore which carries the book and the bookstores will have a vector of pointers showing which books are in the stores inventory. You will be able to print the list of books, print the list of bookstores, search by book, search by bookstore, print the inventory of a bookstore, print the list of bookstores which carry the book, find the bookstore which will have the lowest shipping cost on the book you are looking for, order the book (this will reduce the available quantity) if the available quantity goes to 0 the book will be removed from the stores inventory. If ALL copies of a book have been bought from all linked stores, the program will tell the user that the book is sold out.
 
-//struct bookStore // vertices in graph //{ //     string name; //     vector adj; // vector of structs of adjacent vertices vectore onHand; //     bool visited; //     int distance; //};
+How to Run
+This section contains instructions, with examples, of how to run your program.
 
-// struct adjacent //{ //   bookstore *v; // pointer to a book store //   int weight; // cost to ship from v //};
+   the main.cpp file will include the header file and is hard coded to read in the three text files. The user should just have store all associated files in the same directory and then run main.
 
-//struct inventory //{ // book *b; // int quantity; //};
+Dependencies
+All files need to be in the same directory, and called by the compiler. The user does not need to know any of the filenames to run. Main will call the text files on its own.
 
-Class Best Sellers { private: bookStore start; bookStore end; book Root;
+System Requirements
 
-public: StoreMap(); // constructor insertVertex(string name); insertEdge( bookStore start, bookStore end, int weight); // between v1 and v2 weight = 40 (ex) void printStoreList(value); void printInventory(value); book searchBook(value); // This will provide info on book and where to purchase it bookStore searchStore(value); // This will return a pointer to a store. ~StoreMap(); // deconstructor
+This program was written as a win 32 console application. It should run in any console on mac and windows.
 
-}; // The Final project has the following requirements: // - Contains at least 1 class : Graph Class, potentially another class for the flight price storage, BST maybe // - Contains at least one graph and one other data structure: see above // - Class should contain 7 public methods:
+Erin "Jade" Wibbels
 
-// - Contains a well documented driver to run your code (Will need for testing anyhow)
+Open issues/bugs
+
+None that I am aware of. 
+
