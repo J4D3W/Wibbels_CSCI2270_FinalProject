@@ -1,6 +1,6 @@
-// Erin "Jade" Wibbels 
-// CSCI 2270 - Professor Montero Quesada 
-// Final Project Phase 2 
+#Erin "Jade" Wibbels 
+## CSCI 2270 - Professor Montero Quesada 
+### Final Project Phase 2 
 
 Project Summary
 
